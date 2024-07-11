@@ -6,7 +6,7 @@
 #let color_1 = rgb("#F176AC")
 #let color_2 = rgb("#9E5FB6")
 #let color_3 = rgb("#004F2D")
-#let color_4 = rgb("#b6d6cc")
+#let color_4 = rgb("#A4303F")
 
 #let link_list(cols, links) = {
   box(height: 100%,
@@ -23,7 +23,7 @@
 #let list_block(ll) = {
   heading(ll.title)
   list(
-    ..ll.contents.map(l => {
+    ..ll.contruts.map(l => {
       l.title
       linebreak()
       text(fill: gray.lighten(15%), l.at("subtitle", default: []))
