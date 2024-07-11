@@ -130,8 +130,8 @@
       Лабораторная работа по защитe от несанкционного редактирования файлов в Windows, 2022], "it": []).at(lang),),
       (title: ("ru": [Респондент CustDev для курса _Информационная безопасность.Basic_ ]
       ).at(lang),
-      subtitle: ("ru": [ #set text(size: 10pt) 
-      OTUS, 2024], "it": []).at(lang),
+      // subtitle: ("ru": [ #set text(size: 10pt) 
+      // OTUS, 2024], "it": []).at(lang),
       ),
     ),
   ),

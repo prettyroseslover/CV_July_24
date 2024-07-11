@@ -1,1 +1,1 @@
-<a href="CV_July_24/resume.pdf" class="image fit">CV</a>
+<a href="resume.pdf" class="image fit">CV</a>
