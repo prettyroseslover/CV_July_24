@@ -1,6 +1,13 @@
 #let data(lang) = (
   name: ("ru": [Полина Потапова], "it": []).at(lang),
-  links: ((
+  links: (
+  (
+    title: [`Санкт-Петербург`],
+    url: "",
+    icon: "\u{f276}",
+    available: ("ru", "it"),
+  ),
+  (
     title: [`potapova.polia2002@yandex.ru`],
     url: "mailto:potapova.polia2002@yandex.ru",
     icon: "\u{f0e0}",
@@ -25,11 +32,6 @@
     title: [`GitLab: prettyroseslover`],
     url: "https://gitlab.com/prettyroseslover",
     icon: "\u{f296}",
-    available: ("ru", "it"),
-  ), (
-    title: [`@prettyroseslover`],
-    url: "https://instagram.com/prettyroseslover",
-    icon: "\u{f16d}",
     available: ("ru", "it"),
   ),).filter(l => l.available.contains(lang)),
   education: (
