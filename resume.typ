@@ -2,7 +2,7 @@
 #import "style.typ"
 #import "@preview/fontawesome:0.2.0" as fa
 
-#let data = data(sys.inputs.at("lang", default: "ru"))
+#let data = data(sys.inputs.at("lang", default: "en"))
 
 #set text(size: 13pt, font: ("Roboto Mono"))
 #show raw: set text(font: "Roboto Mono")
@@ -38,9 +38,11 @@
     grid(columns: (50%, auto), column-gutter: 2em, {
       style.list_block(data.experience)
       parbreak()
+      // style.list_block(data.projects)
+      // parbreak()
+      // style.content_block(data.results)
+      // parbreak()
       style.list_block(data.skills)
-      parbreak()
-      style.list_block(data.projects)
       parbreak()
     }, {
       style.list_block(data.education)

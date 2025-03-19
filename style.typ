@@ -31,6 +31,11 @@
   )
 }
 
+#let content_block(ll) = {
+  heading(ll.title)
+  ll.content
+}
+
 #let resume_page(color: color, upper_height: length, upper: content, content) = {
   page(
     "a4",
